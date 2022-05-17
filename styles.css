@@ -1,0 +1,72 @@
+.title {
+  font-size: 2em;
+  text-align: center;
+  background-color: rgba(28, 235, 200, 0.8);
+  padding: 10px;
+  border-radius: 35px;
+  margin: 2em;
+}
+
+.title h1 {
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url(background.jpg);
+}
+
+.main-content {
+  background-color: rgba(28, 235, 200, 0.5);
+  padding: 8px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+
+.main-content h2 {
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+.result {
+    padding: 8px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+#guess {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+  border-color: white;
+  font-size: 20px;
+}
+
+#submit {
+  position: block;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  height: 40px;
+  width: 70px;
+  background-color: white;
+  border-color: white;
+  border-radius: 5px;
+}
