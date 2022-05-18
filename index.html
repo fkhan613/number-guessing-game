@@ -8,27 +8,33 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="title">
-      <h1>Number Guessing Game</h1>
-    </div>
+      <div class="title">
+        <h1>Number Guessing Game</h1>
+      </div>
 
-    <div class="result">
-      <h2 class="output"></h2>
-    </div>
-    <div class="main-content">
-      <form onsubmit="return false">
-        <h2>Please enter a number from 1-50</h2>
-        <input type="number" name="guessedNumber" id="guess" min="1" max="50" />
-        <input type="submit" value="Guess" id="submit" />
-      </form>
-    </div>
+      <div class="result">
+        <h2 class="output"></h2>
+      </div>
+      <div class="main-content">
+        <form onsubmit="return false">
+          <h2>Please enter a number from 1-100</h2>
+          <input
+            type="number"
+            name="guessedNumber"
+            id="guess"
+            min="1"
+            max="100"
+          />
+          <input type="submit" value="Guess" id="submit" />
+        </form>
+      </div>
 
-    <footer class="footer">
-      <p>
-        Check out my other projects on
-        <a href="https://github.com/fkhan613">Github!</a>
-      </p>
-    </footer>
+      <footer class="footer">
+        <p>
+          Check out my other projects on
+          <a href="https://github.com/fkhan613">Github!</a>
+        </p>
+      </footer>
   </body>
 
   <script src="index.js"></script>
